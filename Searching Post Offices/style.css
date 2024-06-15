@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Home section css is written here */
+.home{
+    display: flex;
+    height: 100vh;
+}
+
+.div1{
+    width: 45%;
+    background-color: black;
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div2{
+    width: 55%;
+    background-color: #575A85;
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.heading1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.purpal{
+    color: #575A85;
+}
+
+.B8BCCC{
+    color: #B8BCCC;
+}
+
+.white{
+    color: white;
+}
+
+.normal{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: white;
+    margin-top: 25px;
+}
+
+.div1 img{
+    width: 410px;
+    height: 380px;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.btn-submit{
+    width: 345px;
+    height: 67px;
+    border: 1px solid white;
+    background-color: #575A85;
+    color: #B8BCCC;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 705px){
+    .home{
+        flex-direction: column;
+    }
+
+    .div1{
+        width: 100%;
+    }
+
+    .div2{
+        width: 100%;
+    }
+}
+
+/* Click after CSS is writen below */
+.ip2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    background-color: black;
+    padding: 25px;
+}
+
+.top-detail-p{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #B8BCCC;
+}
+
+.top-detail{
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.google_ifram{
+    background-color: #575A85;
+    padding: 25px;
+}
+
+.heading2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #B8BCCC;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.more_info{
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.more_info_heading{
+    background-color: black;
+    padding-top: 25px;
+}
+
+.near_post_office{
+    background-color: black;
+    padding: 25px;
+}
+
+input{
+    width: 100%;
+    height: 85px;
+    border-radius: 10px;
+    border: 2px solid #575A85;
+    background-color: black;
+    color: #B8BCCC;
+    font-weight: 400;
+    font-size: 32px;
+    padding: 10px 40px;
+}
+
+i{
+    color: white;
+    position: relative;
+    top: 54px;
+    left: 10px;
+}
+
+.card{
+    width: 670px;
+    height: 400px;
+    background-color: #575A85;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card_container{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+@media screen and (max-width: 769px) {
+    .heading2, .heading1{
+        font-size: 28px;
+    }
+
+    .ip2{
+        font-size: 28px;
+    }
+
+    .top-detail-p{
+        font-size: 22px;
+    }
+
+    .card{
+        width: 300px;
+        height: 400px;
+    }
+
+    input{
+        width: 100%;
+        height: 65px;
+        font-size: 22px;
+    }
+
+    i{
+        top: 44px;
+    }
+
+    .btn-submit{
+        width: 245px;
+        height: 57px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .div1 img {
+        width: 290px;
+    }
+
+    .normal{
+        font-size: 20px;
+    }
+}
